@@ -1,0 +1,8 @@
+/* descendant selector */
+/* div p {
+	color: red;
+} */
+/* child selector - It will only select the direct descendant element , It won't select the <p> inside footer tag*/
+div > p {
+	color: red;
+}

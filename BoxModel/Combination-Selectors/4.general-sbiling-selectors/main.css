@@ -1,0 +1,6 @@
+/* general sibiling selectors - This selector allows you to select all elements
+that are next siblings of a specified element or the selected element*/
+/* for ex : Teh elsected element is div and it will apply all the stylings to all the elements that comes after the div tag(not inside the div tag) */
+div ~ p {
+	color: red;
+}

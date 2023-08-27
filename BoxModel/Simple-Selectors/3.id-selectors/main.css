@@ -1,0 +1,14 @@
+/* id selector */
+#id1 {
+	color: red;
+}
+#id2 {
+	background-color: black;
+	color: white;
+	padding: 10px;
+}
+#id3 {
+	background-color: green;
+	color: white;
+	padding: 10px;
+}
