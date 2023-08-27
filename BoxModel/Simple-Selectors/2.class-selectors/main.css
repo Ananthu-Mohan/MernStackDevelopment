@@ -1,0 +1,14 @@
+/* class selector */
+.learn {
+	color: red;
+}
+.class2 {
+	background-color: black;
+	color: white;
+	padding: 10px;
+}
+.class3 {
+	background-color: green;
+	color: white;
+	padding: 10px;
+}

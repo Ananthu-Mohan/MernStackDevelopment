@@ -1,0 +1,4 @@
+/* adjacent selectors */
+div + p {
+	color: red; /* This will select the p tags that are immediately follwoign the div tags*/
+}

@@ -1,0 +1,7 @@
+/* descendant selector */
+p {
+	color: red;
+}
+div p {
+	color: blue;
+}
