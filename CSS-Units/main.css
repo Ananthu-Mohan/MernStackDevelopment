@@ -1,0 +1,54 @@
+/* html {
+  font-size: 16px;
+}
+.px {
+  font-size: 89px;
+}
+p {
+  font-size: 20px;
+} 
+These are absolute Units that means their sizes won't change depending up on the width of the browser they remains the same and are not responsive , It's not recommended to use the px or absolute Units for the font-size etc..
+*/
+
+/* .percentage-parent {
+  border: 1px solid red;
+  width: 100%;
+}
+
+.percentage-child {
+  border: 1px solid green;
+  width: 50%;
+} */
+/* html {
+  font-size: 16px;
+} */
+/* 1rem = 16px */
+/* .rem-parent {
+  font-size: 2rem;
+} */
+/* 2rem = 32px */
+/* .rem-child {
+} */
+
+/* .em-parent {
+  font-size: 1em;
+}
+.em-child {
+  font-size: 4em;
+} */
+
+/* rem - child will look up for the root element hence the name rem ,
+whereas em - child won't look up for the root element but it will look for the parent element */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  background-color: red;
+  color: white;
+  height: 50vh;
+}
+
+/* viewport height - vh is used to give the size of an element respetive to the browser width which is relative in nature */

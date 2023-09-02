@@ -1,0 +1,47 @@
+/* h2 {
+  color: red;
+} */
+/* h2 {
+  color: green; 
+} */
+/* ? This will override the preiovus colour red to green*/
+
+/*  
+CSS Specificity hierarchy
+--------------------------
+
+Inline Styles > IDs > Classes,pseudi-classes,attribute selectors > Elements and pseudo-elements
+
+
+Inline Styles have higher precedence than the any other selectors
+ID Selectors are greater than the Class selectors etc...
+Like that it will keeps on going.
+
+*/
+
+/* .title {
+  color: blue;
+}
+#title {
+  color: blueviolet;
+} */
+
+/* h2 {
+  color: crimson !important; 
+} */
+/* ! !important is used break the above CSS Specificity hierarchy */
+
+/* Combinations  */
+.title2 {
+  color: red;
+}
+.container .title2 {
+  color: green;
+}
+.container #title2 {
+  color: blueviolet;
+  /* The one with higher specificity wins (as per above rule)*/
+}
+.container h2 {
+  color: bisque;
+}
