@@ -1,0 +1,30 @@
+.child1 {
+  background-color: red;
+  height: 150px;
+  width: 150px;
+}
+.child2 {
+  background-color: green;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  /* top: 0px; */
+  bottom: 0px;
+  left: 50px;
+}
+.container {
+  border: 3px solid black;
+  width: 500px;
+  position: relative;
+}
+
+/* 
+Elemet will be position realtive to it's closest parents which has position relative 
+if there is no element with postion relative then it will look up at the viewport or the browser 
+
+When we add absolute position to an element that element will be removed from the document. Meaning the remaining element will behave as if there is no element 
+
+
+
+
+*/

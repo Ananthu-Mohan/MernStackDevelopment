@@ -10,7 +10,7 @@
 CSS Specificity hierarchy
 --------------------------
 
-Inline Styles > IDs > Classes,pseudi-classes,attribute selectors > Elements and pseudo-elements
+Inline Styles > IDs > Classes,pseudo-classes,attribute selectors > Elements and pseudo-elements
 
 
 Inline Styles have higher precedence than the any other selectors

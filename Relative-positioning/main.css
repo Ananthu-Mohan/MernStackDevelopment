@@ -1,0 +1,30 @@
+.child1 {
+  background-color: red;
+  height: 150px;
+  width: 150px;
+  position: relative;
+  top: -20px;
+  z-index: 2;
+}
+.child2 {
+  background-color: green;
+  height: 150px;
+  width: 150px;
+  position: relative;
+  /* left: 200px; */
+  top: -80px;
+  left: 100px;
+  z-index: 1;
+}
+.container {
+  border: 3px solid black;
+  width: 500px;
+}
+/* z-index is used to stack teh order of the elements in html 
+   
+   for top , bottom, left, right to work, we must add position : relative in CSS 
+   -ve value represents the value is off the set from the elements intial postion
+   +ve means the value is above the set from the elements intial position
+
+   -ve and +ve value represents whether the element will be moved closerto or further away from it's normal postioning.
+*/
