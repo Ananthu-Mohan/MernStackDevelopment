@@ -20,7 +20,7 @@
   border: 3px solid black;
   width: 500px;
 }
-/* z-index is used to stack teh order of the elements in html 
+/* z-index is used to stack the order of the elements in html 
    
    for top , bottom, left, right to work, we must add position : relative in CSS 
    -ve value represents the value is off the set from the elements intial postion
